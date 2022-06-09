@@ -149,3 +149,19 @@
         font-size: 1.4rem;
     }
 }
+@media (max-width:768px){
+    // .Navbar{
+        .burger{
+            top: 7.5% !important;
+            right: 11% !important;
+        }
+    // }
+    .about{
+        .right_component{
+            display: none;
+        }
+        .left_component{
+            width: 100% !important;
+        }
+    }
+}
